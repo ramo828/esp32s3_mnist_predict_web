@@ -3,8 +3,8 @@
 
 #include <Arduino.h>
 
-const char* ssid = "Wifi Adi";
-const char* password = "Password";
+const char* ssid = "Cracker";
+const char* password = "totu7751055";
 const int H = 28; // En
 const int W = 28; // Boy
 
@@ -84,7 +84,7 @@ margin-top:20px;
 
 <h1>ESP32 AI Reqem Tanima</h1>
 
-<p>Sol klik = ciz | Sag klik = sil</p>
+<p>Sol klik = cız | Sag klik = sil</p>
 
 <div id="grid"></div>
 
@@ -94,7 +94,7 @@ margin-top:20px;
 
 <button onclick="clearGrid()">Təmizlə</button>
 
-<h2>Təxmin edil'n rəqəm:</h2>
+<h2>Təxmin edilən rəqəm:</h2>
 
 <div id="result">?</div>
 
@@ -206,7 +206,7 @@ body:JSON.stringify({matrix:matrix})
 .then(response=>response.text())
 .then(data=>{
 
-console.log("Təxmin:",data);
+console.log("Təxmin: ",data);
 
 document.getElementById("result").innerText=data;
 

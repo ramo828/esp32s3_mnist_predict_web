@@ -60,7 +60,6 @@ NeuralNet::NeuralNet() {
     MicroPrintf("FullyConnected operatoru elave edile bilmedi!");
     return;
   }
-
   // Softmax layer (çıxış ehtimallarını hesablayır)
   if (resolver.AddSoftmax() != kTfLiteOk) {
     MicroPrintf("Softmax operatoru elave edile bilmedi!");

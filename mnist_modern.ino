@@ -12,7 +12,7 @@ void handleRoot() {
 
 void handleSend() {
   if (!server.hasArg("plain")) {
-    server.send(400, "text/plain", "Veri yoxdur");
+    server.send(400, "text/plain", "Data yoxdur");
     return;
   }
 
