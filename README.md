@@ -1,4 +1,4 @@
-# ESP32 MNIST Reqem Tanima — Azerbaycan Turkcesi
+# ESP32 MNIST Rəqəm Tanıma — Azerbaycan
 
 ## Layihənin Məqsədi
 Bu layihə ESP32 mikrokontroller üzərində TensorFlow Lite Micro istifadə edərək MNIST datasetindən öyrədilmiş model ilə rəqəm tanıma funksiyasını həyata keçirir. Web interfeys vasitəsilə istifadəçi 28x28 ölçülü griddə rəqəm çəkir və ESP32 cihazı bu rəqəmi tanıyır.
